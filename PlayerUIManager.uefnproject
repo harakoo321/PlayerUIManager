@@ -1,0 +1,44 @@
+{
+	"fileVersion": 15,
+	"versionSuffix": "",
+	"title": "PlayerUIManager",
+	"description": "",
+	"keyArt": "",
+	"docsUrl": "",
+	"kind": "Island",
+	"compatibilityVersion": "31.20",
+	"editorPermissions": [],
+	"epicApp": "",
+	"sortPriority": 0,
+	"featureSet": "",
+	"plugins": [
+		{
+			"name": "PlayerUIManager",
+			"bIsRoot": true,
+			"bIsPublic": false
+		}
+	],
+	"dataSets":
+	{
+		"matchmaking":
+		{
+			"maxPlayers": 16,
+			"maxTeamCount": 1,
+			"maxTeamSize": 16,
+			"maxSocialPartySize": 16,
+			"allowJoinInProgress": true,
+			"allowSquadFillOption": false,
+			"islandQueuePrivacy": "Unrestricted",
+			"version": 1
+		}
+	},
+	"bindings":
+	{
+		"projectId": "d38291c6-4b79-329b-abd9-3aa00cf3f36e",
+		"projectVersePath": "",
+		"modules":
+		{
+			"PlayerUIManager": "78bd975d-4d93-2022-823e-a29d66e913b1"
+		}
+	}
+}
